@@ -13,6 +13,6 @@ songs = [
 new_songs = []
 
 puts songs.each do |song|
-  new_songs.push(song.split( - ))
+  song.split(" - ")
   return new_songs
 end
