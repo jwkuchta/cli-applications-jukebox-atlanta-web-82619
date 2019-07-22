@@ -12,3 +12,4 @@ songs = [
 
 puts songs.each do |song|
   song.split("-")
+end
