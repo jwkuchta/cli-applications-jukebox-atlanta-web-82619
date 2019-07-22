@@ -25,7 +25,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   song_name = gets.chomp
-  for song in songs
+  for song in songs do
     if song_name in songs
       puts "Playing #{song_name}"
     else
