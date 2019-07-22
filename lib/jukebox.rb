@@ -29,10 +29,13 @@ def play(songs)
   songs.each do |song|
     split_songs.push(song.split(" - "))
   end
-  if song_name in split_songs
-    puts "Playing #{song_name}"
-  else
-    puts "Invalid input, please try again"
+  i = 0
+  while i < split_songs.length do
+    if split_songs[i] == song_name
+      puts "Playing #{song_name}"
+    else
+      puts "Invalid input, please try again"
+    end
   end
 end
 
