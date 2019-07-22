@@ -1,8 +1,19 @@
-def say_hello(name)
-  "Hi #{name}!"
+def help
+
 end
 
-puts "Enter your name:"
-users_name = gets.chomp
+def play 
 
-puts say_hello(users_name)# Add your code here
+end
+
+def list 
+
+end
+
+def exit_jukebox
+
+end 
+
+def run
+
+end
