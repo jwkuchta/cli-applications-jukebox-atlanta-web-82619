@@ -12,4 +12,9 @@ songs = [
 
 new_songs = []
 
-p songs
+def split_songs(songs)
+  for song in songs
+    song.split()
+  end
+  return songs
+end
