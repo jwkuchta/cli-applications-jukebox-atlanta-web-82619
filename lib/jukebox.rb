@@ -22,7 +22,12 @@ def list(songs)
   songs.each_with_index {|song, index| puts "#{index+1}. #{song}"}
 end
 
-def play
+def play(songs)
+  puts "Please enter a song name or number:"
+  song_name = gets.chomp
+  for song in songs
+    if song_name in songs
+      puts "Playing #{song_name}"
 
 end
 
