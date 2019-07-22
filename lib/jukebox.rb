@@ -18,13 +18,13 @@ def help
   puts "- exit : exits this program"
 end
 
-def play
-
-end
-
 def list(songs)
   songs.each_with_index do |song, index|
     puts "#{index + 1}. #{song}"
+end
+
+def play
+
 end
 
 def exit_jukebox
@@ -34,3 +34,8 @@ end
 def run
 
 end
+
+
+
+
+
