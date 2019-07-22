@@ -14,7 +14,7 @@ new_songs = []
 
 def split_songs(songs)
   for song in songs
-    song.split()
+    song.split(" - ")
   end
   return songs
 end
