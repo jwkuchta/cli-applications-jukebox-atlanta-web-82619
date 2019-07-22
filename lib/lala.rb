@@ -12,4 +12,4 @@ songs = [
 
 new_songs = []
 
-puts "Phoenix - 1901".split(" - ")
+p "Phoenix - 1901".split(" - ")
