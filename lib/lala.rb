@@ -12,6 +12,4 @@ songs = [
 
 new_songs = []
 
-puts songs.each do |song|
-  return song.split(" - ")
-end
+p songs
