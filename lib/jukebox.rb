@@ -31,7 +31,7 @@ def play(songs)
   end
   if song_name in split_songs
     puts "Playing #{song_name}"
-  else 
+  else
     puts "Invalid input, please try again"
   end
 
