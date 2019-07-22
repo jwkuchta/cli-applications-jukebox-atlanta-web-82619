@@ -12,9 +12,4 @@ songs = [
 
 new_songs = []
 
-def split_songs(songs)
-  for song in songs
-    song.split(" - ")
-  end
-  return songs
-end
+"Phoenix - 1901".split(" - ")
