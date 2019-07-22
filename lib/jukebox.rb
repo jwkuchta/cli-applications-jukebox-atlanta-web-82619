@@ -23,8 +23,17 @@ def list(songs)
 end
 
 def play(songs)
+  split_songs = []
   puts "Please enter a song name or number:"
   song_name = gets.chomp
+  songs.each do |song|
+    split_songs.push(song.split(" - "))
+  end
+  if song_name in split_songs
+    puts "Playing #{song_name}"
+  else 
+    puts "Invalid input, please try again"
+  end
 
 end
 
