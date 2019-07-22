@@ -2,17 +2,17 @@ def help
 
 end
 
-def play 
+def play
 
 end
 
-def list 
+def list
 
 end
 
 def exit_jukebox
 
-end 
+end
 
 def run
 
