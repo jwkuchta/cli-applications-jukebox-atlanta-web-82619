@@ -10,7 +10,9 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
+new_songs = []
+
 puts songs.each do |song|
-  new_songs = song.split( - )
+  new_songs.push(song.split( - ))
   return new_songs
 end
