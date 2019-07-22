@@ -46,5 +46,3 @@ end
 def run
 
 end
-
-puts songs.split("-")
